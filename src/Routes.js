@@ -18,6 +18,12 @@ export default function Routes({ appProps }) {
             <AppliedRoute path="/signup" exact component={Signup} appProps={appProps} />
             <AppliedRoute path="/accounts/new" exact component={NewAccount} appProps={appProps} />
             <AppliedRoute path="/accounts/:id" exact component={Accounts} appProps={appProps} />
+
+            {/* <UnauthenticatedRoute path="/login" exact component={Login} appProps={appProps} />
+            <UnauthenticatedRoute path="/signup" exact component={Signup} appProps={appProps} />
+            <AuthenticatedRoute path="/settings" exact component={Settings} appProps={appProps} />
+            <AuthenticatedRoute path="/notes/new" exact component={NewNote} appProps={appProps} />
+            <AuthenticatedRoute path="/notes/:id" exact component={Notes} appProps={appProps} /> */}
             { /* Finally, catch all unmatched routes */}
             <Route component={NotFound} />
         </Switch>
