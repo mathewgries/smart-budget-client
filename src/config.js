@@ -1,4 +1,8 @@
 export default {
+    // s3: {
+    //     REGION: "YOUR_S3_UPLOADS_BUCKET_REGION",
+    //     BUCKET: "YOUR_S3_UPLOADS_BUCKET_NAME"
+    // },
     apiGateway: {
         REGION: "us-east-1",
         URL: "https://1yt69x59a7.execute-api.us-east-1.amazonaws.com/dev"
